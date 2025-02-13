@@ -87,15 +87,6 @@ sequenceDiagram
     Auditoria->>Banco_de_Dados: Solicita logs com mais de 12 meses
     Banco_de_Dados->>Auditoria: Retorna logs criptografados
 ```
-
-
-## **Conclusão**
-A entrega da **Sprint 1** está estruturada para garantir a documentação e a aferição de qualidade dos requisitos DN2 e DN3.  
-
-1. **Mapa do Business Drivers** – Explica os direcionadores de negócio e as métricas de sucesso.  
-2. **Estratégia e Massa de Testes** – Define os testes automatizados usando **Gherkin notation**.  
-3. **Diagramação** – Utiliza **MermaidChart** para visualizar os processos de sincronização e rastreamento de transações.  
-
 ## **Conclusão**  
 
 A documentação e os testes elaborados garantem que os processos críticos da Rappi, como sincronização de estoque e rastreamento seguro das transações, sejam monitorados e validados de forma automatizada. Com isso, conseguimos estruturar um sistema que assegura maior confiabilidade para os entregadores, reduzindo falhas operacionais e proporcionando um suporte mais eficiente para reduzir os churn dos entregadores.
